@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nombre_estudiante"
+            android:inputType="textPersonName"
+            android:autofillHints="none"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota_1"
+            android:inputType="numberDecimal"
+            android:autofillHints="none"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota_2"
+            android:inputType="numberDecimal"
+            android:autofillHints="none"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etNota3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota_3"
+            android:inputType="numberDecimal"
+            android:autofillHints="none"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etNota4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota_4"
+            android:inputType="numberDecimal"
+            android:autofillHints="none"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etNota5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nota_5"
+            android:inputType="numberDecimal"
+            android:autofillHints="none"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnCalcularPromedio"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular_promedio"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/tvResultadoPromedio"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+</ScrollView>
+

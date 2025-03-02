@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DesafioPractico</string>
+
+
+    <string name="nombre_empleado">Nombre del Empleado</string>
+    <string name="salario_base">Salario Base</string>
+    <string name="calcular_descuentos">Calcular Descuentos</string>
+
+
+    <string name="operando_1">Operando 1</string>
+    <string name="operando_2">Operando 2</string>
+    <string name="calcular_operacion">Calcular</string>
+
+
+    <string name="nombre_estudiante">Nombre del Estudiante</string>
+    <string name="nota_1">Nota 1 (15%)</string>
+    <string name="nota_2">Nota 2 (15%)</string>
+    <string name="nota_3">Nota 3 (20%)</string>
+    <string name="nota_4">Nota 4 (25%)</string>
+    <string name="nota_5">Nota 5 (25%)</string>
+    <string name="calcular_promedio">Calcular Promedio</string>
+
+</resources>
